@@ -1,0 +1,41 @@
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+
+# Environment variables:
+.env
+
+# Media and static files:
+/media
+/static
+
+# Virtual environments
+venv/
+env/
+
+# macOS specific files
+.DS_Store
+
+# Node modules (if using frontend dependencies with npm)
+node_modules/
+
+# Migrations
+**/migrations/*
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# MyPy
+.mypy_cache/
+
+# IDE files (optional)
+.idea/
+*.vscode/
